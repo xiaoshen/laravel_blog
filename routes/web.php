@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('/content', 'appController@toContent');
+Route::any('/deploy', 'depolymentController@deploy');
